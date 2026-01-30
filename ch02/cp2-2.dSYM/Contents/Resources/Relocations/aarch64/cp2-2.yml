@@ -1,5 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     "/Users/dongjulee/Documents/패스트 캠퍼스/로봇 & 임베디드 개발을 위한 올인원 프로젝트 with 그라운드 임베디드/fastcampus-embedded-allinone-c/cp02/cp2-2"
-relocations:     []
-...
