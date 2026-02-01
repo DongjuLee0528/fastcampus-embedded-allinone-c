@@ -21,4 +21,6 @@ int main(void) {
 
     c >>= 2; // >>는 비트 연산자에서도 설명한거 처럼 /4
     printf("c = %d\n", c);
+
+    return 0;
 }
