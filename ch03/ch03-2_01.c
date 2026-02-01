@@ -9,4 +9,5 @@ int main(void) {
         printf(" ais less than 20 \n");
     }
     printf("value a =%d\n", a);
+    return 0;
 }
