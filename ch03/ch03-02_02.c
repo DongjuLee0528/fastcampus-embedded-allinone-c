@@ -6,8 +6,8 @@ int main (void) {
     int a = 100;
     int b = 200;
 
-    if (a == 100) {
-        if (b ==200) {
+    if (a == 100) { //if 문 중첩가능
+        if (b == 200) {
             printf("value a is 100 and b is 200\n");
         }
     }
