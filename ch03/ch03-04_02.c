@@ -20,4 +20,6 @@ int main (void) {
 int sum(int a, int b) {
     printf("a in sum() is  = %d\n",a); // a =10
     printf("b in sum() is  = %d\n",b); // b = 20
+    // 리턴 값이 없어서
+    return a+b;
 }
