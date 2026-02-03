@@ -19,7 +19,7 @@ int main (void) {
     double avg;
 
     avg = getAverage(balance, 5); // 함수 호출때 balance 넘겨줌
-    printf ("avg if = %f\n", avg);
+    printf("avg is = %f\n", avg);
 
     return 0;
 }
