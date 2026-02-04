@@ -22,7 +22,7 @@ int main(void) {
     printf("Before swap(), a = %d\n", a);
     printf("Before swap(), b = %d\n", b);
 
-    swap(&a, &b);
+    swap(&a, &b); //메모리 주소를 매개변수로 넘김
 
     printf("After swap(), a = %d \n", a);
     printf("After swap(), b = %d \n", b);
