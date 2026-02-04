@@ -24,6 +24,6 @@ int main(void) {
 
     swap(a, b);
 
-    printf("After swap(), a = %d = %d\n", a);
-    printf("After swap(), b = %d = %d\n", b);
+    printf("After swap(), a = %d \n", a);
+    printf("After swap(), b = %d \n", b);
 }
