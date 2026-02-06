@@ -18,4 +18,5 @@ int main () {
     double avg;
     avg = getAverage(arr, 5);
     printf("avg value is = %f\n", avg);
+    return 0;
 }
