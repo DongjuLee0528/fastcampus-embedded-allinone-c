@@ -1,6 +1,6 @@
 //
 // Created by Dongju Lee on 2026. 2. 6..
-//
+//포인터 예제 함수 파라미터 포인터 예제
 #include <stdio.h>
 double getAverage (int *arr, int size) {
     int i, sum = 0;
