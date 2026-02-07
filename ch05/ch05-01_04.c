@@ -26,9 +26,10 @@ int main(void) {
     return 0;
 }
 
-void printBook(struct Books *book) {
-    printf("book1 title = %s\n", book->title);
+void printBook(struct Books *book) { // 포인터 구조체 사용 book이라는 포인터 선언
+    printf("book1 title = %s\n", book->title);//book에 있는 주소로 가서 title 접근해라
     printf("book1 author = %s\n", book->author);
     printf("book1 subject = %s\n", (*book).subject);
     printf("book1 book_id = %d\n", (*book).book_id);
+    //(*book).subject 이 방식보단 book->author 이 방식을 많이 사용한다
 }
