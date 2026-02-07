@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Books {
+struct Books { //
     char title[50];
     char author[50];
     char subject[100];
@@ -12,9 +12,10 @@ struct Books {
 };
 
 int main(void) {
-    struct Books book1;
+    struct Books book1; //struct Books book1; 구조체 변수 생성
 
-    strcpy(book1.title, "cC programming");
+    strcpy(book1.title, "C programming"); //book1.title이라고 적으면 books 구조체 안에 있는 title 변수에 접근 가능
+    //strcpy는 book1.title 이 변수에 "C programming" 문자열을 복사해주는 함수
     strcpy(book1.author, "GROUND EMBEDDED");
     strcpy(book1.subject, "C programming Tutorial");
     book1.book_id = 12345;
