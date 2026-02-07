@@ -24,7 +24,7 @@ int main(void) {
     return 0;
 }
 
-void printBook(struct  Books book) {
+void printBook(struct  Books book) { //printBook이라는 함수 만들었음 (struct  Books book) 파라미터 인자를 값을 전달 가능
     printf("book1 title = %s\n", book.title);
     printf("book1 author = %s\n", book.author);
     printf("book1 subject = %s\n", book.subject);
