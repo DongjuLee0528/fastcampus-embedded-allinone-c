@@ -22,4 +22,6 @@ int main (void) {
     strcpy(data.str, "Dong ju LEE");
     printf("data.str = %s\n", data.str);
 
+    return 0;
+
 }
