@@ -10,8 +10,8 @@ union Data {
     char str[20];
 };
 int main (void) {
-    union Data data;
-    printf("Memory size is = %d\n", sizeof(data));
+    union Data data; //union Data에 data 변수 생성
+    printf("Memory size is = %d\n", sizeof(data)); //sizeof 데이터 사이즈 확인 가능 #include <stdlib.h>함수 사용
 
     return 0;
 }
