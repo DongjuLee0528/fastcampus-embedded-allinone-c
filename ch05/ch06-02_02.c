@@ -12,5 +12,6 @@ union Data {
 int main (void) {
     union Data data;
     printf("Memory size is = %d\n", sizeof(data));
+
     return 0;
 }
