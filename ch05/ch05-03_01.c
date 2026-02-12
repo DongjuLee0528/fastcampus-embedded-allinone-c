@@ -8,7 +8,7 @@
 struct {
     member definition : width;
     member definition : width;
-};[struct name];
+}[struct name];
 
 ex)
 union Data {
